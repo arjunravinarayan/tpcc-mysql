@@ -7,6 +7,7 @@
 #include <stdlib.h>
 #include <sys/times.h>
 #include <time.h>
+#include <pthread.h>
 #include "tpc.h"      /* prototypes for misc. functions */
 #include "trans_if.h" /* prototypes for transacation interface calls */
 #include "sequence.h"
